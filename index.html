@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#172554">
+<title>ماجراجویی ریاضی هفتم | فصل اول</title>
+<style>
+:root{--ink:#172554;--muted:#64748b;--paper:#f8fafc;--card:#fff;--line:#dbeafe;--blue:#2563eb;--violet:#7c3aed;--green:#15803d;--red:#b91c1c;--gold:#f59e0b}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 10% 10%,#dbeafe 0,transparent 32%),linear-gradient(135deg,#f5f3ff,#eff6ff 55%,#ecfeff);font-family:Tahoma,"Segoe UI",sans-serif;color:var(--ink);font-size:17px;line-height:1.85}
+button,input,textarea{font:inherit}button{cursor:pointer;min-height:48px;border:0;border-radius:14px;padding:10px 18px;font-weight:bold;background:var(--blue);color:white;box-shadow:0 4px 0 #1d4ed8;transition:.15s}button:active{transform:translateY(3px);box-shadow:0 1px 0 #1d4ed8}button.secondary{background:#e0e7ff;color:#1e3a8a;box-shadow:0 4px 0 #c7d2fe}button.success{background:var(--green);box-shadow:0 4px 0 #166534}button.danger{background:#fee2e2;color:#991b1b;box-shadow:0 4px 0 #fecaca}button:disabled{opacity:.45;cursor:not-allowed}
+.wrap{max-width:1000px;margin:auto;padding:18px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}.brand{font-size:14px;color:var(--muted)}.pill{background:#ede9fe;color:#5b21b6;border-radius:999px;padding:5px 13px;font-size:14px;font-weight:bold}
+.card{background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:24px;padding:clamp(18px,4vw,32px);box-shadow:0 14px 35px #1e3a8a12;margin:14px 0}
+h1{font-size:clamp(25px,5vw,38px);line-height:1.5;margin:5px 0;color:#1e1b4b}h2{font-size:clamp(21px,4vw,28px);margin:0 0 12px}h3{margin:8px 0}.subtitle{color:var(--muted);margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}label{font-weight:bold;font-size:15px}input,textarea{width:100%;border:2px solid #cbd5e1;border-radius:13px;padding:12px 14px;background:#fff;color:var(--ink);min-height:49px;outline:none}input:focus,textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px #2563eb18}textarea{min-height:105px;resize:vertical}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}.center{text-align:center}.hidden{display:none!important}.hero{font-size:54px}.progress{height:12px;background:#e2e8f0;border-radius:20px;overflow:hidden;margin:12px 0}.progress>div{height:100%;background:linear-gradient(90deg,#2563eb,#8b5cf6);width:0;transition:width .3s}.question-tag{display:inline-block;background:#fef3c7;color:#92400e;padding:4px 12px;border-radius:999px;font-size:14px;font-weight:bold}.question{font-size:20px;font-weight:bold;line-height:2;margin:16px 0}.hint{background:#eff6ff;border-right:4px solid #60a5fa;padding:12px 15px;border-radius:12px;color:#1e40af}.feedback{margin-top:12px;padding:12px;border-radius:12px;font-weight:bold}.feedback.ok{background:#dcfce7;color:#166534}.feedback.no{background:#fee2e2;color:#991b1b}.stats{display:flex;gap:10px;flex-wrap:wrap}.stat{background:#f1f5f9;padding:9px 14px;border-radius:12px}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:620px}th,td{padding:10px;border-bottom:1px solid #e2e8f0;text-align:right;vertical-align:top}th{background:#eff6ff}.small{font-size:13px;color:var(--muted)}.student-answer{background:#f8fafc;border-radius:12px;padding:12px;margin:8px 0;white-space:pre-wrap}.review{border:1px solid #cbd5e1;border-radius:15px;padding:14px;margin:12px 0}.review img{max-width:100%;max-height:260px;display:block;border-radius:10px;margin-top:8px}.footer{text-align:center;color:var(--muted);font-size:13px;padding:15px}
+@media(max-width:650px){.wrap{padding:10px}.grid{grid-template-columns:1fr}.top{align-items:flex-start}.card{border-radius:18px;padding:17px}.actions button{flex:1 1 100%}.question{font-size:18px}.hero{font-size:42px}}
+@media(orientation:landscape) and (max-height:520px){.wrap{max-width:1100px}.card{padding:15px}.hero{font-size:34px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header class="top"><div><div class="brand">اداره آموزش و پرورش دهدز</div><strong>🎮 ماجراجویی ریاضی هفتم</strong></div><span class="pill">فصل اول: راهبردهای حل مسئله</span></header>
+
+ <main id="startScreen" class="card">
+  <div class="center"><div class="hero">🧩🚀</div><h1>ماموریت بزرگ حل مسئله</h1><p class="subtitle">هشت مرحله را پشت سر بگذار، قفل هر مرحله را با پاسخ درست باز کن!</p></div>
+  <div class="hint center"><b>تدوینگران: مهدی حسینی و سمیه حسینی</b><br>با فکر کردن، آزمودن و کشف کردن قهرمان ریاضی شو!</div>
+  <h2 style="margin-top:22px">مشخصات دانش‌آموز</h2>
+  <div class="grid">
+   <div class="field"><label for="firstName">نام</label><input id="firstName" autocomplete="given-name" placeholder="نام شما"></div>
+   <div class="field"><label for="lastName">نام خانوادگی</label><input id="lastName" autocomplete="family-name" placeholder="نام خانوادگی شما"></div>
+   <div class="field"><label for="className">نام کلاس</label><input id="className" placeholder="مثلاً هفتم الف"></div>
+   <div class="field"><label for="nationalCode">کد ملی (۱۰ رقم)</label><input id="nationalCode" inputmode="numeric" maxlength="10" pattern="[0-9۰-۹]{10}" placeholder="برای ثبت نتیجه"></div>
+  </div>
+  <div class="actions"><button id="startBtn">شروع ماموریت 🚀</button><button class="secondary" id="teacherOpen">ورود معلم 👩‍🏫</button></div>
+  <p class="small">اطلاعات و پاسخ‌ها در همین مرورگر ذخیره می‌شوند. برای انتقال نتیجه، فایل JSON را دانلود کنید.</p>
+ </main>
+
+ <section id="gameScreen" class="card hidden">
+  <div class="top"><span class="question-tag" id="levelTag">مرحله ۱ از ۸</span><span class="pill" id="scoreTag">۰ پاسخ درست</span></div>
+  <div class="progress"><div id="progressBar"></div></div>
+  <h2 id="strategyTitle"></h2><div class="question" id="questionText"></div>
+  <div class="hint" id="strategyHint"></div>
+  <div class="field" style="margin-top:18px"><label id="answerLabel" for="answerInput">پاسخ نهایی</label><input id="answerInput" autocomplete="off" placeholder="پاسخت را وارد کن"></div>
+  <div class="field" style="margin-top:14px"><label for="reasonInput">راه‌حل و توضیح تو (برای بررسی معلم)</label><textarea id="reasonInput" placeholder="مراحل فکر کردن و محاسباتت را بنویس..."></textarea></div>
+  <div class="field" style="margin-top:14px"><label for="imageInput">تصویر راه‌حل (اختیاری)</label><input id="imageInput" type="file" accept="image/*"></div>
+  <div id="feedback" aria-live="polite"></div>
+  <div class="actions"><button id="checkBtn">بررسی پاسخ 🔐</button><button id="nextBtn" class="success hidden" disabled>مرحله بعدی ←</button></div>
+  <p class="small">تا پاسخ نهایی درست نباشد، مرحله‌ی بعد باز نمی‌شود. توضیح و تصویرت همراه نتیجه برای معلم فرستاده می‌شود.</p>
+ </section>
+
+ <section id="doneScreen" class="card hidden center">
+  <div class="hero">🏆</div><h1>ماموریت با موفقیت انجام شد!</h1><p id="finalMessage"></p>
+  <div class="stats" style="justify-content:center"><span class="stat" id="finalScore"></span><span class="stat" id="finalTime"></span></div>
+  <p>نتیجه در حافظه‌ی همین مرورگر ذخیره شد. فایل را دانلود و برای معلم ارسال کن.</p>
+  <div class="actions" style="justify-content:center"><button id="downloadOne" class="success">دریافت فایل نتیجه ⬇️</button><button id="homeBtn" class="secondary">بازگشت به صفحه اول</button></div>
+ </section>
+
+ <section id="teacherLogin" class="card hidden">
+  <h2>🔐 ورود معلم</h2><p class="subtitle">رمز عبور پنل معلم را وارد کنید.</p>
+  <div class="field"><label for="teacherPass">رمز عبور</label><input id="teacherPass" type="password" autocomplete="current-password"></div>
+  <div id="loginError" class="feedback no hidden">رمز عبور اشتباه است. دوباره تلاش کنید.</div>
+  <div class="actions"><button id="loginBtn">ورود به پنل</button><button id="cancelLogin" class="secondary">بازگشت</button></div>
+ </section>
+
+ <section id="teacherPanel" class="card hidden">
+  <div class="top"><div><h2>👩‍🏫 پنل معلم</h2><p class="subtitle">مدیریت نتیجه‌های دانش‌آموزان</p></div><button id="logoutBtn" class="danger">خروج</button></div>
+  <div class="actions">
+   <button id="importBtn" class="secondary">وارد کردن نتایج 📂</button><input id="importFiles" type="file" accept=".json,application/json" multiple class="hidden">
+   <button id="exportAllBtn" class="success">دانلود همه‌ی نتایج ⬇️</button><button id="refreshBtn" class="secondary">به‌روزرسانی</button>
+  </div>
+  <p class="small">نتایج واردشده و نتایج ذخیره‌شده در این مرورگر در جدول زیر نمایش داده می‌شوند.</p>
+  <div class="table-wrap"><table><thead><tr><th>نام و نام خانوادگی</th><th>کد ملی</th><th>نمره تستی</th><th>وضعیت تصحیح</th><th>زمان</th><th>بررسی</th></tr></thead><tbody id="resultsBody"></tbody></table></div>
+  <div id="reviewArea"></div>
+ </section>
+ <footer class="footer">ساخته‌شده برای تمرین، یادگیری و لذت حل مسئله ✨</footer>
+</div>
+<script>
+// رمز ورود معلم را از این متغیر تغییر دهید؛ مقدار پیش‌فرض طبق درخواست 1234 است.
+const TEACHER_PASSWORD = "1234";
+const RESULT_KEY = "dehdez_math7_results_v1";
+const questions = [
+ {title:"۱. راهبرد رسم شکل",text:"امیر یک قاب تبلت مستطیل‌شکل به طول ۲۰ سانتی‌متر و عرض ۱۲ سانتی‌متر دارد. او می‌خواهد یک نوار محافظ رنگی با فاصله‌ی ۲ سانتی‌متر از دورتادور قاب بچسباند. با رسم شکل ذهنی، طول کل نوار دور قاب جدید چند سانتی‌متر می‌شود؟",hint:"ابعاد بیرونی را پیدا کن؛ از هر بُعد، دو فاصله‌ی ۲ سانتی‌متری اضافه می‌شود. سپس محیط مستطیل را حساب کن.",answers:["80","۸۰"],placeholder:"محیط را به سانتی‌متر بنویس"},
+ {title:"۲. راهبرد الگوسازی و تفکر نظام‌دار",text:"سارا می‌خواهد مبلغ ۴۰٬۰۰۰ تومان را فقط با اسکناس‌های ۱۰٬۰۰۰ و ۲۰٬۰۰۰ تومانی پرداخت کند. چند حالت متفاوت برای پرداخت دقیق این مبلغ وجود دارد؟",hint:"تعداد اسکناس‌های ۲۰هزار تومانی را از صفر تا دو بررسی کن و برای هر حالت تعداد اسکناس‌های ۱۰هزار تومانی را بیاب.",answers:["3","۳"],placeholder:"تعداد حالت‌ها"},
+ {title:"۳. راهبرد حذف حالت‌های نامطلوب",text:"رمز کمد ورزشی پویان یک عدد سه‌رقمی با رقم‌های غیرتکراری است. حاصل‌ضرب رقم‌ها ۲۴ و حاصل‌جمع آن‌ها ۹ است. اگر رمز عددی فرد باشد، کدام گزینه می‌تواند رمز باشد؟",hint:"رقم‌ها ۲، ۳ و ۴ هستند. عدد فرد باید به رقم فرد ختم شود؛ ترتیب دو رقم دیگر می‌تواند جابه‌جا شود.",answers:["243","423","۲۴۳","۴۲۳"],placeholder:"یکی از رمزهای ممکن را بنویس"},
+ {title:"۴. راهبرد الگویابی",text:"قوطی‌های آبمیوه در ویترین طبقه‌ای چیده شده‌اند: طبقه اول ۱ قوطی، طبقه دوم ۳، طبقه سوم ۵ و همین‌طور ادامه دارد. در طبقه هفتم چند قوطی قرار دارد؟",hint:"الگو هر بار ۲ واحد زیاد می‌شود. جمله‌ی nام این الگو ۲n−۱ است.",answers:["13","۱۳"],placeholder:"تعداد قوطی‌ها"},
+ {title:"۵. راهبرد حدس و آزمایش",text:"در پارکینگ مدرسه ۱۲ وسیله شامل دوچرخه‌ی ۲چرخه و سه‌چرخه‌ی ۳چرخه وجود دارد. مجموع چرخ‌ها ۳۰ تاست. چند دوچرخه و چند سه‌چرخه وجود دارد؟ پاسخ را به صورت «تعداد دوچرخه، تعداد سه‌چرخه» بنویس.",hint:"اگر همه ۱۲ وسیله دوچرخه بودند ۲۴ چرخ داشتیم. ۶ چرخ اضافه یعنی ۶ وسیله‌ی سه‌چرخه داریم.",answers:["6,6","۶،۶","۶ و ۶","6 و 6","6 6"],placeholder:"مثلاً ۶،۶"},
+ {title:"۶. راهبرد زیرمسئله",text:"علی ۱۲۰٬۰۰۰ تومان دارد. او ۳ دفترِ هرکدام ۲۰٬۰۰۰ تومان و ۲ خودکارِ هرکدام ۱۵٬۰۰۰ تومان می‌خرد. فروشنده ۱۰٬۰۰۰ تومان تخفیف می‌دهد. چقدر پول برای علی باقی می‌ماند؟",hint:"هزینه دفترها و خودکارها را جداگانه حساب کن، تخفیف را کم کن و سپس از پول اولیه کم کن.",answers:["40000","۴۰۰۰۰","۴۰٬۰۰۰"],placeholder:"مبلغ باقی‌مانده به تومان"},
+ {title:"۷. راهبرد حل مسئله‌ی ساده‌تر",text:"۸ نفر از اعضای تیم فوتسال، هرکدام با تمام اعضای دیگر دقیقاً یک‌بار دست می‌دهند. در مجموع چند بار دست دادن رخ می‌دهد؟",hint:"برای ۲، ۳ و ۴ نفر تعداد دست‌دادن‌ها را بررسی کن. هر دست‌دادن بین یک جفت نفر است و نباید دوبار شمرده شود.",answers:["28","۲۸"],placeholder:"تعداد دست‌دادن‌ها"},
+ {title:"۸. راهبرد روش‌های نمادین (معادله)",text:"پارسا ۵۰ امتیاز اولیه دارد و در هر مرحله ۲۰ امتیاز می‌گیرد. وقتی امتیازش به ۲۱۰ رسید، چند مرحله را با موفقیت طی کرده است؟",hint:"اگر تعداد مرحله‌ها را x بگیری، معادله‌ی ۲۰x + ۵۰ = ۲۱۰ را تشکیل بده.",answers:["8","۸"],placeholder:"تعداد مرحله‌ها"}
+];
+let current=0, startAt=0, currentResult=null, results=[], imported=[];
+const $=id=>document.getElementById(id);
+const show=id=>$(id).classList.remove("hidden"), hide=id=>$(id).classList.add("hidden");
+function normalize(s){return String(s??"").replace(/[۰-۹]/g,d=>"۰۱۲۳۴۵۶۷۸۹".indexOf(d)).replace(/[٠-٩]/g,d=>"٠١٢٣٤٥٦٧٨٩".indexOf(d)).replace(/[,\s٬]/g,"").trim().toLowerCase()}
+function readStored(){try{const x=JSON.parse(localStorage.getItem(RESULT_KEY)||"[]");return Array.isArray(x)?x:[]}catch(e){return []}}
+function saveStored(){localStorage.setItem(RESULT_KEY,JSON.stringify(results))}
+function safeName(r){return `${r.firstName||""} ${r.lastName||""}`.trim()}
+function downloadJSON(data,name){const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json;charset=utf-8"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+function startGame(){
+ const firstName=$("firstName").value.trim(),lastName=$("lastName").value.trim(),className=$("className").value.trim(),nationalCode=normalize($("nationalCode").value);
+ if(!firstName||!lastName||!className||!/^\d{10}$/.test(nationalCode)){alert("لطفاً نام، نام خانوادگی، نام کلاس و کد ملی ۱۰ رقمی را کامل و درست وارد کنید.");return}
+ current=0;startAt=Date.now();currentResult={id:crypto.randomUUID?crypto.randomUUID():String(Date.now())+Math.random(),firstName,lastName,className,nationalCode,answers:[],testScore:0,essayScore:null,correctionStatus:"در انتظار تصحیح تشریحی",startedAt:new Date(startAt).toISOString(),completedAt:null,durationSeconds:0};
+ hide("startScreen");hide("teacherLogin");hide("teacherPanel");hide("doneScreen");show("gameScreen");renderQuestion();
+}
+function renderQuestion(){
+ const q=questions[current];$("levelTag").textContent=`مرحله ${current+1} از ${questions.length}`;$("scoreTag").textContent=`${currentResult.testScore} پاسخ درست`;
+ $("progressBar").style.width=`${current/questions.length*100}%`;$("strategyTitle").textContent=q.title;$("questionText").textContent=q.text;$("strategyHint").textContent=q.hint;$("answerInput").value="";$("answerInput").placeholder=q.placeholder;$("reasonInput").value="";$("imageInput").value="";$("feedback").innerHTML="";hide("nextBtn");show("checkBtn");$("checkBtn").disabled=false;
+}
+function fileAsDataURL(file){return new Promise((resolve,reject)=>{if(!file){resolve(null);return}if(file.size>1500000){reject(new Error("حجم تصویر باید کمتر از ۱٫۵ مگابایت باشد."));return}const reader=new FileReader();reader.onload=()=>resolve({name:file.name,type:file.type,data:reader.result});reader.onerror=reject;reader.readAsDataURL(file)})}
+async function checkAnswer(){
+ const q=questions[current],given=$("answerInput").value.trim();
+ if(!given){$("feedback").innerHTML='<div class="feedback no">اول پاسخ نهایی را وارد کن.</div>';return}
+ if(!q.answers.map(normalize).includes(normalize(given))){$("feedback").innerHTML='<div class="feedback no">هنوز درست نیست! یک بار دیگر فکر کن و پاسخ را بررسی کن. 🔎</div>';return}
+ $("checkBtn").disabled=true;
+ try{
+  const imageData=await fileAsDataURL($("imageInput").files[0]);
+  currentResult.answers[current]={question:q.title,finalAnswer:given,reason:$("reasonInput").value.trim(),image:imageData,correct:true};
+  currentResult.testScore++;$("feedback").innerHTML='<div class="feedback ok">آفرین! پاسخ درست است. قفل مرحله باز شد. 🎉</div>';
+  $("scoreTag").textContent=`${currentResult.testScore} پاسخ درست`;hide("checkBtn");show("nextBtn");$("nextBtn").disabled=false;
+ }catch(err){$("feedback").innerHTML=`<div class="feedback no">${err.message||"خواندن تصویر ناموفق بود."}</div>`;$("checkBtn").disabled=false}
+}
+function finishGame(){
+ currentResult.completedAt=new Date().toISOString();currentResult.durationSeconds=Math.round((Date.now()-startAt)/1000);currentResult.correctionStatus="در انتظار تصحیح تشریحی";
+ results=readStored();const idx=results.findIndex(r=>r.id===currentResult.id);if(idx>=0)results[idx]=currentResult;else results.push(currentResult);saveStored();
+ hide("gameScreen");show("doneScreen");$("finalMessage").textContent=`${safeName(currentResult)} عزیز، هر ۸ مرحله را پشت سر گذاشتی.`;$("finalScore").textContent=`نمره تستی: ${currentResult.testScore} از ۸`;$("finalTime").textContent=`زمان: ${formatDuration(currentResult.durationSeconds)}`;
+}
+function formatDuration(s){return `${Math.floor(s/60)} دقیقه و ${s%60} ثانیه`}
+function nextQuestion(){current++;if(current<questions.length)renderQuestion();else finishGame()}
+function openTeacher(){hide("startScreen");show("teacherLogin");$("teacherPass").value="";hide("loginError")}
+function loginTeacher(){if($("teacherPass").value===TEACHER_PASSWORD){hide("teacherLogin");show("teacherPanel");renderResults()}else show("loginError")}
+function allResults(){const local=readStored();const map=new Map();[...local,...imported].forEach(r=>{if(r&&r.id)map.set(r.id,r)});return [...map.values()]}
+function renderResults(){
+ results=allResults();$("resultsBody").innerHTML="";
+ if(!results.length){$("resultsBody").innerHTML='<tr><td colspan="6">هنوز نتیجه‌ای ثبت یا وارد نشده است.</td></tr>';return}
+ results.forEach((r,i)=>{const tr=document.createElement("tr");const vals=[safeName(r),r.nationalCode||"—",`${r.testScore??0} از ۸`,r.correctionStatus||"در انتظار تصحیح",r.completedAt?new Date(r.completedAt).toLocaleString("fa-IR"):"—"];
+ vals.forEach(v=>{const td=document.createElement("td");td.textContent=v;tr.appendChild(td)});const td=document.createElement("td"),b=document.createElement("button");b.className="secondary";b.textContent="مشاهده و تصحیح";b.onclick=()=>showReview(r.id);td.appendChild(b);tr.appendChild(td);$("resultsBody").appendChild(tr)});
+}
+function showReview(id){
+ const r=allResults().find(x=>x.id===id);if(!r)return;const area=$("reviewArea");area.innerHTML="";
+ const head=document.createElement("h3");head.textContent=`پاسخ‌های ${safeName(r)} — کلاس ${r.className||"—"}`;area.appendChild(head);
+ (r.answers||[]).forEach((a,i)=>{const box=document.createElement("div");box.className="review";const h=document.createElement("b");h.textContent=a.question||`پرسش ${i+1}`;box.appendChild(h);
+  [["پاسخ نهایی",a.finalAnswer],["راه‌حل دانش‌آموز",a.reason||"توضیحی ثبت نشده است"]].forEach(([k,v])=>{const p=document.createElement("div");p.className="student-answer";p.textContent=`${k}: ${v||"—"}`;box.appendChild(p)});
+  if(a.image&&a.image.data){const im=document.createElement("img");im.src=a.image.data;im.alt="تصویر راه‌حل دانش‌آموز";box.appendChild(im)}
+  area.appendChild(box)});
+ const grade=document.createElement("div");grade.className="review";const label=document.createElement("label");label.textContent="نمره تشریحی (از ۲۰): ";const inp=document.createElement("input");inp.type="number";inp.min="0";inp.max="20";inp.inputMode="numeric";inp.value=r.essayScore??"";inp.style.maxWidth="140px";label.appendChild(inp);grade.appendChild(label);
+ const save=document.createElement("button");save.className="success";save.textContent="ذخیره نمره تشریحی";save.style.margin="12px";save.onclick=()=>{const n=Number(inp.value);if(inp.value===""||!Number.isFinite(n)||n<0||n>20){alert("نمره‌ای بین صفر تا ۲۰ وارد کنید.");return}r.essayScore=n;r.correctionStatus="تصحیح شد";persistTeacherResult(r);renderResults();showReview(r.id);};grade.appendChild(save);area.appendChild(grade);area.scrollIntoView({behavior:"smooth",block:"start"});
+}
+function persistTeacherResult(r){
+ const local=readStored(),idx=local.findIndex(x=>x.id===r.id);if(idx>=0)local[idx]=r;else local.push(r);localStorage.setItem(RESULT_KEY,JSON.stringify(local));
+ const j=imported.findIndex(x=>x.id===r.id);if(j>=0)imported[j]=r;
+}
+async function importFiles(files){
+ for(const file of files){try{const data=JSON.parse(await file.text());const list=Array.isArray(data)?data:[data];list.forEach(r=>{if(r&&typeof r==="object"&&(r.id||r.firstName)){if(!r.id)r.id="import-"+Date.now()+"-"+Math.random();const idx=imported.findIndex(x=>x.id===r.id);if(idx>=0)imported[idx]=r;else imported.push(r)}})}catch(e){alert(`فایل ${file.name} معتبر نیست یا خوانده نشد.`)}}
+ renderResults();
+}
+$("startBtn").onclick=startGame;$("teacherOpen").onclick=openTeacher;$("checkBtn").onclick=checkAnswer;$("nextBtn").onclick=nextQuestion;$("loginBtn").onclick=loginTeacher;$("cancelLogin").onclick=()=>{hide("teacherLogin");show("startScreen")};$("teacherPass").addEventListener("keydown",e=>{if(e.key==="Enter")loginTeacher()});
+$("downloadOne").onclick=()=>downloadJSON(currentResult,`natije-${currentResult.nationalCode}.json`);$("homeBtn").onclick=()=>{hide("doneScreen");show("startScreen")};
+$("logoutBtn").onclick=()=>{hide("teacherPanel");hide("reviewArea");show("startScreen")};$("refreshBtn").onclick=renderResults;$("importBtn").onclick=()=>$("importFiles").click();$("importFiles").onchange=e=>{importFiles([...e.target.files]);e.target.value=""};$("exportAllBtn").onclick=()=>downloadJSON(allResults(),`hame-natayej-${new Date().toISOString().slice(0,10)}.json`);
+</script>
+</body>
+</html>
